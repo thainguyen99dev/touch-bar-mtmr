@@ -53,7 +53,7 @@
       }
     }
   },
-  { "type": "previous", "bordered": false, "align": "left" },
+  { "type": "previous", "bordered": false, "align": "left", "width": 30 },
   {
     "type": "appleScriptTitledButton",
     "source": {
@@ -69,7 +69,7 @@
     },
     "align": "left"
   },
-  { "type": "next", "bordered": false, "align": "left" },
+  { "type": "next", "bordered": false, "align": "left", "width": 30 },
   // --- End Spotify ---
   // --- Youtube ---
   {
@@ -121,6 +121,7 @@
     "type": "staticButton",
     "align": "right",
     "title": "",
+    "width": 45,
     "bordered": false,
     "action": "shellScript",
     "executablePath": "/System/Library/CoreServices/ScreenSaverEngine.app/Contents/MacOS/ScreenSaverEngine",
